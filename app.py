@@ -8,7 +8,7 @@ def app():
     text = """
     In this app, you can generate synthetic review for restaurants using transfer learning from OpenAI GPT-2 model.
     
-    Notebook for detailed code: [Notebook](https://calendar.google.com/calendar/u/0/r/week)
+    Notebook for detailed code: [Notebook](https://nbviewer.jupyter.org/github/patrick-ytchou/Yelp-Review-Generation/blob/main/Yelp%20Review%20Generation%20with%20Transfer%20Learning.ipynb)
     """
     st.markdown(text)
     generate_review = pipeline('text-generation', 
