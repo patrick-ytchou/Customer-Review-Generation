@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Custom
+data/
+gpt2/pytorch_model.bin
+
 # C extensions
 *.so
 
